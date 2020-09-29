@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <v-app>
     <v-app-bar
       app
@@ -41,6 +42,15 @@
       <HelloWorld/>
     </v-main>
   </v-app>
+=======
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Home2</router-link> |
+      <router-link to="/about">Absout</router-link>
+    </div>
+    <router-view/>
+  </div>
+>>>>>>> parent of 1d47974... aa
 </template>
 
 <script>
